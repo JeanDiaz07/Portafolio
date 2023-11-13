@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'minimal';
+    src: url(tipografia/minimal/minimal.otf) format('truetype');
+font-style: normal;
+font-weight: normal;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    background-color:  #3f83b2 ;
+    padding: 7% 0 9% 0;
+text-align: center;
+
+font-family: 'minimal';
+
+}
+main h1{
+font-size: 50px;
+font-weight: bolder;
+
+}
+main .LinkRed{
+color: white;
+text-decoration: none;
+font-size: 25px;
+
+}
+main div section{
+display: block;
+text-decoration: none;
+
+}
+main div section a{
+margin-left: 5px;
+font-size: 20px;
+
+
+}
+main h4{
+font-size: 35px;
+font-weight: bolder;
+
+}
+

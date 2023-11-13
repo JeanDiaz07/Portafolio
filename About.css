@@ -1,0 +1,80 @@
+
+main{
+width: 100%;
+height: auto;
+    background-color: #9db6e4 ;
+    padding: 2%;
+    
+}
+main h2{
+
+text-align: center;
+font-size: 50px;
+font-family: 'minimal';
+    font-weight: bolder;
+
+}
+main p{
+    text-align: center;
+width: 60%;
+margin: 0 20% 0 20%;
+
+}
+
+.Informacion{
+
+    width: 100%;
+    height: auto;
+    display: flex;
+    gap: 4%;
+    padding: 4%;
+    
+    
+    }
+   
+    .Informacion .Data{
+        width: 41%;
+        height: auto;
+        text-align: center;
+    display: block;
+    justify-content: center;
+    
+    }
+    .Informacion .Data li {
+        list-style: none;
+        
+        }
+        .Informacion .Lenguajes{
+            width: 50%;
+            height: auto;
+            text-align: center;
+            
+        }
+      .Informacion .Lenguajes ul{
+margin-top: 5%;
+        display: inline-flex;
+        gap: 10px;
+
+      }
+      .Informacion .Lenguajes ul li{
+       list-style: none;
+
+
+      }
+      .Informacion .Lenguajes ul li img{
+      width: 100px;
+height: auto;
+
+      }
+      main h3{
+font-family: 'minimal';
+font-size: 35px;
+font-weight: bolder;
+      }
+      main h4{
+
+        font-family: 'minimal';
+        font-size: 30px;
+        font-weight: bolder;
+
+      }

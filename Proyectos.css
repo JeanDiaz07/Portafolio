@@ -1,0 +1,46 @@
+
+
+    main .Botones{
+        background-color: #25537e ;
+       color: white;
+       text-align: center;
+       padding: 2%;
+       font-family: 'minimal';
+    
+    }
+    main .Botones h2{
+    font-weight: bolder;
+font-size: 50px;
+
+    }
+    main .Botones .Proyectos{
+    
+    width: 100%;
+    height: auto;
+    display: block;
+    
+    padding: 2%;
+    
+    
+    }
+    .Proyectos .Primera{
+
+        display: flex;
+        gap: 2%;
+        }
+        .Proyectos .Segunda{
+        
+        display: flex;
+        gap: 2%;
+        justify-content: center;
+        }
+    .Proyectos .card{
+        width: 30%;
+        height: auto;
+        margin-top: 2%;
+        }
+        .Proyectos .card h5{
+            font-weight:  bolder;
+
+        }
+      

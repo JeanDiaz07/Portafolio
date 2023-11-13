@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'minimal';
+    src: url(tipografia/minimal/minimal.otf) format('truetype');
+font-style: normal;
+font-weight: normal;
+}
+@font-face {
+    font-family: 'robota';
+    src: url(tipografia/drius/drius.ttf) format('truetype');
+font-style: normal;
+font-weight: normal;
+}
+
+body{
+
+    width: 100%;
+    height: auto;
+}
+
+
+header{
+width: 100%;
+height: auto;
+background-image: url(Imagen/redes-mundo-digital-conexiones-internet-datos.jpg);
+background-size: 100% 100%;
+padding: 5% 5% 5% 5%  ;
+color: white;
+}
+header div{
+
+display: flex;
+justify-content: space-between;
+
+}
+header div ul{
+display: flex;
+gap: 15px;
+
+}
+header a{
+text-decoration: none;
+color: white;  
+font-size: 120%; 
+}
+
+header ul  li{
+
+    list-style: none;
+
+}
+header h1{
+    font-size: 80px;
+    font-family: 'minimal';
+    font-weight: bolder;
+}
+main{
+width: 100%;
+height: auto;
+
+}
+
+
+header img{
+width: 45%;
+height: auto;
+border-radius: 450px;
+
+}
+header div section{
+width: 40% ;
+height: auto;
+text-align: center;
+margin-top: 5%;
+padding: 8% 1% 5% 1% ;
+font-size: 20px;
+background: linear-gradient(0deg, transparent 25%, rgba(152,173,221,1) 48%, rgba(37,83,126,1) 68%, transparent 96%);
+font-family: 'minimal';
+font-size: 22px;
+font-weight: lighter;
+}
+
+header div section p a{
+
+color: blue;
+
+
+}
+
+footer{
+    width: 100%;
+    height: auto;
+    padding: 2%;
+    background-color:  #0a1a2f;
+    color: white;
+    font-family: 'minimal';
+    
+    }
